@@ -1,0 +1,62 @@
+@import url(./variables.css);
+@import url(../fonts/stylesheet.css);
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Figtree", sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: var(--color-yellow, #f4d04e);
+}
+
+.text-1 {
+    color: var(--color-gray-950);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 150%;
+
+    @media (min-width: 375.98px) {
+        font-size: var(--spacing-300);
+    }
+}
+
+.text-2 {
+    color: var(--color-gray-500);
+    font-size: var(--font-size-text-preset-3);
+    font-weight: 500;
+    line-height: 150%;
+
+    @media (min-width: 375.98px) {
+        font-size: var(--font-size-text-preset-2);
+    }
+}
+
+.text-3 {
+    color: var(--color-gray-950);
+    font-weight: 500;
+    line-height: 150%;
+    font-size: var(--font-size-text-preset-2);
+
+    @media (min-width: 375.98px) {
+        font-size: var(--font-size-text-preset-3);
+    }
+}
+
+.text-3-bold {
+    color: var(--color-gray-950);
+    font-size: var(--font-size-text-preset-3);
+    font-weight: 800;
+    line-height: 150%;
+}

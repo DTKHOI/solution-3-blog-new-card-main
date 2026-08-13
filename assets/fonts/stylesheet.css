@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Figtree";
+    src:
+        url("./figtree/Figtree-LightItalic.woff2") format("woff2"),
+        url("./figtree/Figtree-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src:
+        url("./figtree/Figtree-Light.woff2") format("woff2"),
+        url("./figtree/Figtree-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src:
+        url("./figtree/Figtree-ExtraBold.woff2") format("woff2"),
+        url("./figtree/Figtree-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src:
+        url("./figtree/Figtree-Medium.woff2") format("woff2"),
+        url("./figtree/Figtree-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
